@@ -6,7 +6,7 @@ let nomeTela = document.getElementById("screenName");
 let corTela = Math.floor(Math.random() * 3) + 1;
 
 
-function Refresh(){
+function Refresh() {
     location.reload();
 }
 
@@ -25,6 +25,7 @@ function Troca_cor() {
             Tela.setAttribute("style", "background-image:url('/src/img/floresta.jpg')");
             nomeTela.innerHTML = "Verde";
             break;
+    }
 }
 //Tela.setAttribute("style","background-color:#F66B0E");
 botao.addEventListener("click", Troca_cor);
